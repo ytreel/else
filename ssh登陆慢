@@ -1,0 +1,6 @@
+系统：ubuntu 12.04
+
+1、在/etc/ssh/sshd.config文件最后加入下面一行，关闭ssh的dns反解析
+   UseDNS no
+2、重启ssh
+   /etc/init.d/ssh restart
